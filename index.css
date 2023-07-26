@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.practices{
+    width: 250px;
+    border: 2px solid salmon;
+    padding: 8px;
+    border-radius: 30px;
+    display: flex;
+    height: 40px;
+    background-color: white;
+}
+input{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 250px;
+}
+.padd{
+    padding-left: 10px;
+}
+.style{
+    padding-right: 10px;
+}
+.header-controls{
+    background-color: #F85559;
+    border-radius: 40px;
+    padding: 20px 0;
+}
+/* nav create complete */
+.right{
+    text-align: end;
+}
+.active{
+    display: none;
+}
+
+/* modile device responsive  */
+@media screen and (max-width: 676px) {
+    .practices,
+    .menu,
+    .mobile-none
+    {
+        display: none;
+    } 
+    .active{
+        display: block;
+    }
+}
+/* tablet device responsive  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .practices,
+    .menu
+    {
+        display: none;
+    } 
+    .active{
+        display: block;
+    }
+}
